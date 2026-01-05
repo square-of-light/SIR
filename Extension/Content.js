@@ -184,7 +184,7 @@ function getRand(randLength) {
 		randString += chars.charAt(Math.floor(Math.random() * chars.length));
 	}
 
-	return randString.replace(/[,\\/:?<>\t\n\v\f\r]/g, '_');
+	return randString;
 };
 
 // ! Drag-able elderMagicField 
